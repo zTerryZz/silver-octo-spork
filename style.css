@@ -1,61 +1,40 @@
-body {
-    font-family: sans-serif;
+body{
+  font-family: Impact;
+  background-color: rgb(15, 0, 83);
+}
+
+header {
+    background-color: rgb(39, 39, 39);
+    padding: 50px;
+}
+
+img {
+    border: 2px solid rgb(0, 0, 0);
 }
 
 p {
-    font-size: 20px;
+    border: 1px solid rgb(25, 0, 255);
+    color: #ffffff;
 }
 
 h1 {
-    color: blueviolet;
+    color: rgb(0, 44, 175);
+    font-size: 30px;
 }
 
 h2 {
-    color: navy;
+    color: rgb(0, 44, 175);
+    font-size: 30px;
 }
 
-a {
-    color: mediumblue;
-    text-decoration: none;
-    border-bottom: 1px dotted navy;
+h3 {
+    color: rgb(0, 44, 175);
+    font-size: 30px;
 }
 
-.container {
-    width: 870px;
+h4 {
+    color: rgb(0, 44, 175);
+    font-size: 30px;
 }
 
-.description {
-    float: left;
-    width: 400px;
-}
 
-.ad {
-    float: right;
-    width: 350px;
-    margin-top: 90px;
-    padding: 30px;
-    border: 2px dotted navy;
-}
-
-.reviews {
-    width: 870px;
-    float: left;
-    margin-left: 30px;
-}
-
-.review {
-    border-left: 10px double navy;
-    width: 350px;
-    padding-left: 10px;
-}
-
-span {
-    color: firebrick;
-    border-bottom: 1px dotted firebrick;
-}
-.review-text::before{
-    content: url("/uploads/2021/03/message_0_1614945444.svg");
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-}
